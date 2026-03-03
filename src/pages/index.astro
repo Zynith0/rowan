@@ -5,8 +5,8 @@ import "../styles/global.css"
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href="/rowan.png" />
+		<link rel="icon" href="/rowan.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>ROWANNN</title>
@@ -16,6 +16,11 @@ import "../styles/global.css"
 		<p class="center">
 			haha loser
 		</p>
+		<div style="text-align: center;">
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+			<button id="more">More</button>
+			</a>
+		</div>
 	</body>
 </html>
 
@@ -30,6 +35,20 @@ import "../styles/global.css"
 
 	#rowaned {
 		margin-top: 80px;
+	}
+
+	#more {
+		background-color: #ffffff;
+		border: 2px solid gray;
+		border-radius: 12px;
+		width: 100px;
+		height: 50px;
+		transition: all ease-in-out 0.1s;
+	}
+
+	#more:hover {
+		background-color: gray;
+		cursor: pointer;
 	}
 
 	.center {
